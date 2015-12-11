@@ -1,0 +1,47 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+It was much easier to compare both files, rather than checking line by line.
+The computer did the leg work and identified inserted and deleted lines in the 
+file.
+
+How could having easy access to the entire history of a file make you a more 
+efficient programmer in the long term?
+
+All changes to a program would be readily available, and potentially very 
+helpful in debugging situations.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+Docs does?
+
+A pro would be being able to judge logical save points, rather than automatic
+saves which may not make any sense when looked at by itself.  A con would be
+the chance of user error, such as not saving enough, or saving too much.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file 
+separately?
+
+Perhaps if the system is used primarily for non-coding projects, it becomes
+unnecessary to save every file in a group when only one file is changed.
+
+How can you use the commands git log and git diff to view the history of files?
+
+The git log command shows a list of all the commits within the repository, 
+along with a note describing what change was made to the files.  The git diff
+command compares to different commits and shows all lines that were added and 
+deleted.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Version control would allow you to experiment with your code, without worrying
+about unintended consequences/bugs that you may introduce.  You could simply
+revert back to previous commits if this were the case.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I'd like to use it on an excel spreadsheet application I've built at work.
+There are multiple modules, forms, and classes which are difficult to make 
+large changes to.
