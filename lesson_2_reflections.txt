@@ -1,0 +1,16 @@
+What happens when you initialize a repository?  Why do you need to do it?
+
+An empty Git repository is initialized (git init).  It needs to be initialized
+so that metadata of the files can be recorded and tracked, for purposes of 
+version control.
+
+How is the staging area different from the working directory and the 
+repository?  What value do you think it offers?
+
+Local files are the working directory.  Changes made to the working directory
+create 'modified files'.  The modified files you'd like to include in a commit 
+are then moved to the staging area.  From there, you can commit the staged 
+files.  A snapshot of all the files are then captured and stored as metadata
+in the repository.  You can then checkout any commit, or snapshot, to your 
+working directory.  This flow allows for a high degree of control over file
+changes.
