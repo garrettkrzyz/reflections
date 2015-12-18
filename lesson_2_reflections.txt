@@ -14,3 +14,35 @@ files.  A snapshot of all the files are then captured and stored as metadata
 in the repository.  You can then checkout any commit, or snapshot, to your 
 working directory.  This flow allows for a high degree of control over file
 changes.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+You can make multiple modifications in the working directory, then move one 
+logical change to the staging area at a time and commit those changes.
+
+What are some situations when branches would be helpful in keeping your history
+organized?  How would branches help?
+
+Branches would be helpful when experimenting with a new feature or language.
+The branch allows you free reign while maintaining a master 'official' branch.
+
+How do the diagrams help you visualize the branch structure?
+
+It's easier to see how the commits track going backwards, as well as how they
+differ moving forward.
+
+What is the result of merging two branches together?  Why do we represent it in
+the diagram the way we do?
+
+Merging two branches will keep all common lines in the commits.  It will also
+keep all new lines added to either commit.  It will not merge removed lines in
+either commit.  The new/removed lines are as compared to the commit where the 
+branch split occurred.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+Automatic merges can make it easier when the merge is fairly straightforward.
+However, merge conflicts can arise in some instances, in which case, a manual
+merge will have to be completed and committed.
