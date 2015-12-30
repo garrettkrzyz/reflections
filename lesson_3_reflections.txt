@@ -14,3 +14,13 @@ repository.  Also, other people may be working on the remote repository, and
 you don't know the changes that have been made.  It's best to make the decision
 when to pull changes, rather than the local repository being automatically 
 updated.
+
+Describe the differences between forks, clones, and branches. When would you 
+use one instead of another?
+
+A branch operates on local repositories and creates a new head separate from an
+existing branch.  A clone is a copy of a repository, either locally, or from 
+a remote repository.  A fork is similar to a clone, performed on the GitHub 
+platform.  A fork also links back to the original repository, and can be used
+to make suggestions/changes without having permissions to make changes on the 
+remote repository.
