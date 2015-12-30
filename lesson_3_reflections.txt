@@ -24,3 +24,11 @@ a remote repository.  A fork is similar to a clone, performed on the GitHub
 platform.  A fork also links back to the original repository, and can be used
 to make suggestions/changes without having permissions to make changes on the 
 remote repository.
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+If internet access were unavailable, you could still see the commit history
+of the remote without having to pull the changes and potentially merge with the
+local.  This can be accomplished with fetch, and then, the remote repository
+can be analyzed locally using diff/log/status, etc.
