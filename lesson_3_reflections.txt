@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+If multiple people are working on a project, it would be best to keep a remote repository.
+It could be accessed by all people involved.  Also, if you work on multiple computers, it
+may be beneficial to have access across multiple devices via GitHub remote repositories.
