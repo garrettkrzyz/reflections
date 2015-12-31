@@ -32,3 +32,13 @@ If internet access were unavailable, you could still see the commit history
 of the remote without having to pull the changes and potentially merge with the
 local.  This can be accomplished with fetch, and then, the remote repository
 can be analyzed locally using diff/log/status, etc.
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+Without GitHub, collaboration would involve more direct communication regarding
+changes made to different files.  It may be easier to maintain control over the
+production version of files.  However, it would be much more difficult to 
+implement large changes and experiment with different branches.  Pull requests
+also facilitate collaboration by clearly showing changes made without affecting
+the master branch.
