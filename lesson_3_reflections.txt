@@ -42,3 +42,13 @@ production version of files.  However, it would be much more difficult to
 implement large changes and experiment with different branches.  Pull requests
 also facilitate collaboration by clearly showing changes made without affecting
 the master branch.
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+If you are collaborating, and would like input from others about a possible
+change, then creating a new branch with the changes may be better.  This way, 
+the changes can be examined/commented on before making the changes to the 
+master branch.  This would be done through a pull request on GitHub.  Working
+solely in the master branch creates a simple flow of the different commits.  
+However, larger changes could not be made as easily.
